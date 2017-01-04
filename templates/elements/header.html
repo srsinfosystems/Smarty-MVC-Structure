@@ -1,0 +1,18 @@
+  <div id="header-surround">
+    <header id="header"> <img src="{$public_url}images/logo.png" alt="Grape" class="logo">
+      <div class="divider-header divider-vertical"></div>
+      <div id="info-dialog" title="About" style="display: none;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+        
+      <div id="user-info">
+        <p> <span class="messages">Hello <a href="javascript:void(0);">Administrator</a> ( <a href="javascript:void(0);"><img src="{$public_url}images/mail.png" alt="Messages"> 3 new messages</a> )</span> <a href="javascript:void(0)" class="toolbox-action button">Settings</a> <a href="javascript:void(0);" class="button red">Logout</a> </p>
+      </div>
+    </header>
+  </div>
+
+
+{if $flashMessage|@count gt 0}
+<div class="msg {$flashMessage.class}" id="flashMessage" style="margin-top:20px;color:black;" >{$flashMessage.message}</div>
+{/if}

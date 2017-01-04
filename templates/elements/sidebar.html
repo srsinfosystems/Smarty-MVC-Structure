@@ -1,0 +1,55 @@
+ <aside id="sidebar">
+    <div id="search-bar">
+      <form id="search-form" name="search-form" action="search.php" method="post">
+        <input class="placeholder text" id="query" name="query" value="Search" autocomplete="off" placeholder="Search" type="text">
+      </form>
+    </div>
+    <section id="login-details"> <img class="img-left framed" src="{$public_url}images/avatar_small.png" alt="Hello Admin">
+      <h3>Logged in as</h3>
+      <h2><a class="user-button" href="javascript:void(0);">Administrator&nbsp;<span class="arrow-link-down"></span></a></h2>
+      <ul class="dropdown-username-menu">
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </section>
+    <nav id="nav">
+      <ul class="menu collapsible shadow-bottom">
+        <li><a style="padding-left: 20px; padding-right: 0px;" href="dashboard.html" class="current"><img src="{$public_url}images/dashboard.png">Dashboard<span class="badge">2</span></a></li>
+        <li><a href="forms.html"><img src="{$public_url}images/application-form.png">Forms</a></li>
+        <li><a style="padding-left: 20px; padding-right: 0px;" href="table.html"><img src="{$public_url}images/table.png">Table</a></li>
+        <li><a href="charts.html"><img src="{$public_url}images/chart.png">Charts</a></li>
+        <li> <a href="javascript:void(0);"><img src="{$public_url}images/clipboard-list.png">Lists<span class="badge grey">3</span><span class="arrow"></span></a>
+          <ul style="display: none;" class="sub">
+            <li><a href="http://envato.stammtec.de/themeforest/grape/list_block.html">Block Lists</a></li>
+            <li><a href="http://envato.stammtec.de/themeforest/grape/list_shortcut.html">Shortcut List</a></li>
+            <li><a href="http://envato.stammtec.de/themeforest/grape/list_contact.html">Contact List</a></li>
+          </ul>
+        </li>
+        <li><a href="tabs.html"><img src="{$public_url}images/ui-tab-content.png">Tabs</a></li>
+        <li><a href="notifications.html"><img src="{$public_url}images/application--exclamation.png">Notifications</a></li>
+        <li><a href="alert_boxes.html"><img src="{$public_url}images/balloons-box.png">Alert Boxes</a></li>
+        <li><a href="tooltips.html"><img src="{$public_url}images/ui-tooltip-balloon.png">Tooltips</a></li>
+        <li><a href="404.html"><img src="{$public_url}images/magnifier--exclamation.png">Error-Page (404)</a></li>
+        <li><a href="login.html"><img src="{$public_url}images/door-open-in.png">Login</a></li>
+        <li> <a href="javascript:void(0);"><img src="{$public_url}images/user-white.png">Example Submenu<span class="badge red">42</span><span class="arrow"></span></a>
+          <ul style="display: none;" class="sub">
+            <li><a href="javascript:void(0);">Lorem ipsum #1</a></li>
+            <li><a href="javascript:void(0);">Lorem ipsum #2</a></li>
+            <li><a href="javascript:void(0);">Lorem ipsum #3</a></li>
+          </ul>
+        </li>
+        <li> <a href="javascript:void(0);"><img src="{$public_url}images/newspaper.png">Another Submenu<span class="arrow"></span></a>
+          <ul style="display: none;" class="sub">
+            <li><a href="javascript:void(0);">Lorem ipsum</a></li>
+            <li><a href="javascript:void(0);">Lorem ipsum</a></li>
+            <li><a href="javascript:void(0);">Lorem ipsum</a></li>
+            <li><a href="javascript:void(0);">Lorem ipsum</a></li>
+            <li><a href="javascript:void(0);">Lorem ipsum</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </aside>
